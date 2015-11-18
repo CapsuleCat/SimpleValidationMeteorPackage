@@ -1,6 +1,6 @@
 Package.describe({
   name: 'idmontie:simple-validation',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Core validation package for checking data, nothing more',
   // URL to the Git repository containing the source code for this package.
@@ -22,6 +22,11 @@ Package.onUse(function(api) {
   api.use('ecmascript');
 
   load(api);
+
+  api.export('Validate');
+  api.export('ValidateNotEmpty');
+  api.export('ValidateIsString');
+  api.export('ValidateIsNumeric');
 });
 
 Package.onTest(function(api) {

@@ -70,5 +70,13 @@ ValidateNotEmpty.validate( data, optionalMessage )
 ## Running Tests
 
 ```
+cd src
 meteor test-packages ./
+```
+
+## Publishing
+
+```
+cd src
+meteor publish
 ```
