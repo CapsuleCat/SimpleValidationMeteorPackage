@@ -4,6 +4,12 @@
 
 Core meteor validation package for checking data, nothing more
 
+## Installation
+
+```
+meteor add simple-validation
+```
+
 ## Validate Helper Object
 
 This package provides two helper functions for doing validation:
